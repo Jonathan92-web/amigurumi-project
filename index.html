@@ -46,15 +46,15 @@
   <section class="container-fluid section-hero text-center vh-100 shadow-lg">
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="">
-        <h1 class="mb-5 display-1 fw-bold" style="font-family: Playwrite DK Loopet">
+        <h1 class="mb-5 display-1 fw-bold " style="font-family: Playwrite DK Loopet">
           AmiguShop
         </h1>
         <h4 class="mb-4">
           Descubre los amigurumis más adorables, hechos a mano con amor.
           Perfectos para cualquier ocasión.
         </h4>
-        <a data-mdb-ripple-init class="btn btn-outline-light m-2 fw-bolder"
-          href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" target="_blank">Ver
+        <a data-mdb-ripple-init class="btn btn-outline-light m-2 fw-bolder" href="#amigurumis" role="" rel="nofollow"
+          target="">Ver
           Amigurimis</a>
         <a data-mdb-ripple-init class="btn btn-outline-light m-2 fw-bolder" href="https://wa.me/573041015470"
           target="_blank" role="button">Contáctanos</a>
@@ -95,7 +95,7 @@
         </div>
       </div>
   </section>
-  <section class="p-2">
+  <section id="amigurumis" class="p-2">
     <h2 class="text-center mt-4 mb-4 display-5">AMIGURUMIS MAS VENDIDOS!!</h2>
     <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade container shadow-sm"
       data-bs-ride="carousel">
@@ -127,14 +127,14 @@
   </section>
   <section class="">
     <div class="container mt-4">
-      <div class="row row-cols-1 text-center">
-        <div class="col-sm-3 text-wrap">
+      <div class="row row-cols-1   text-center">
+        <div class="col-sm-6 col-md-3 ">
           <div class="card mb-3">
             <div>
               <img class="d-block w-100 card-header p-2" src="img/sonic-1.jpeg" alt="">
             </div>
             <div class="card-body p-1">
-              <p class="card-text">¡Atrapa a Sonic en su versión más adorable!.</p>
+              <p class="card-text text-wrap">¡Atrapa a Sonic en su versión más adorable!.</p>
               <span class=" ">$90.000</span>
             </div>
             <div class="card-body p-2">
@@ -143,13 +143,13 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 text-wrap">
+        <div class="col-sm-6 col-md-3 ">
           <div class="card mb-3">
             <div>
               <img class="d-block w-100 card-header p-2"" src=" img/sonic-1.jpeg" alt="">
             </div>
             <div class="card-body p-1">
-              <p class="card-text">¡Atrapa a Sonic en su versión más adorable!.</p>
+              <p class="card-text  text-wrap">¡Atrapa a Sonic en su versión más adorable!.</p>
               <span class="">$90.000</span>
             </div>
             <div class="card-body p-2">
@@ -158,13 +158,13 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 text-wrap">
-          <div class="card mb-3">
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3 ">
             <div>
               <img class="d-block w-100 card-header p-2"" src=" img/sonic-1.jpeg" alt="">
             </div>
             <div class="card-body p-1">
-              <p class="card-text">¡Atrapa a Sonic en su versión más adorable!.</p>
+              <p class="card-text text-wrap">¡Atrapa a Sonic en su versión más adorable!.</p>
               <span class="">$90.000</span>
             </div>
             <div class="card-body p-2">
@@ -173,18 +173,18 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 text-wrap">
-          <div class="card mb-3">
+        <div class="col-sm-6 col-md-3">
+          <div class="card mb-3 ">
             <div>
               <img class="d-block w-100 card-header p-2"" src=" img/sonic-1.jpeg" alt="">
             </div>
             <div class="card-body p-1">
-              <p class="card-text">¡Atrapa a Sonic en su versión más adorable!.</p>
+              <p class="card-text text-wrap">¡Atrapa a Sonic en su versión más adorable!.</p>
               <span class="">$90.000</span>
             </div>
             <div class="card-body p-2">
 
-              <button type="button" class=" btn btn-primary">Ver mas detalles...</button>
+              <button type="button" class=" btn btn-primary ">Ver mas detalles...</button>
             </div>
           </div>
         </div>
@@ -203,7 +203,8 @@
             <p>Recibe las últimas noticias, ofertas y promociones exclusivas directamente en tu correo electrónico.</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="email" class="visually-hidden">correo electronico</label>
-              <input name="email" id="email" type="email" class="form-control" placeholder="Email address">
+              <input name="email" id="email" type="email" class="form-control border-info bg-gradient"
+                placeholder="Email address" required>
               <button class="btn btn-primary" type="button" onclick="customerSuscription()">Suscribirse</button>
             </div>
           </form>
