@@ -1,4 +1,4 @@
-<h1>AmiguShop</h1>
+<h1 align="center">AmiguShop</h1>
 
 <p align="center">Tienda online de amigurumis hechos a mano con diferentes tipos de lana mediante la tecnica de crochet.</p>
 
@@ -6,9 +6,9 @@
 
 <h2>Tecnologias utilizadas</h2>
 
-*HTML 5
-*CSS
-*Bootstrap
-*Javascript
-*Node js - Express.js
-*MongoDB
+* HTML 5
+* CSS
+* Bootstrap
+* Javascript
+* Node js - Express.js
+* MongoDB
